@@ -5,30 +5,21 @@ ow I set up a fresh computer. Less of a guide on how to use an automated process
 
 
 
-## Basic Installs
+## Documentation
 
-*These are the immediate defaults, things that aren't automated.*
+1. [New Computer Setup](./NewComputer.md)
 
-### Browsers
+## Scripts
 
-> [Chrome](https://www.google.com/chrome/)
+- [**./macos**](./macos) MacOS Setup
 
-> [Firefox](https://www.mozilla.org/en-CA/firefox/new/)
+## TODO
 
-
-### Logins
-
-1. Login to Chrome, sync my passwords/accounts
-
-2. Install 1Password, sync my passwords
-
-
-
-
-
-### TODO
-
+- [ ] Can I create a config file to transfer Moom settings?
 - [ ] Mac OSX Defaults setup, preferably [in a script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) to run? (dock, key repeat, mouse settings, etc)
 - [ ] Brew install / requirements
+- [ ] Proper Zsh setup this time
 - [ ] Vs Code setup / configs 
 - [ ] guide on what/how to symlink dotfiles to places (git settings, global configs zsh, valet)
+- [ ] Oni Vim 2 ??
+- [ ] Proper neovim install/setup for using with `vim`
