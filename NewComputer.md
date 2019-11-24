@@ -13,6 +13,10 @@ Fresh setup, just the basics.
 - [Chrome](https://www.google.com/chrome/)
 - [Firefox](https://www.mozilla.org/en-CA/firefox/new/)
 
+### Command Line Helpers
+
+- `xcode-select --install` for git access
+- [Brew](https://brew.sh/)
 
 ### App Store
 
@@ -70,5 +74,19 @@ Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens
 If are setting up a from-scratch computer, and want to reset the dock icons. uncomment `.macos:361`
 
 ```bash
-./macos
+./.macos
 ```
+
+## Setup Brew Defaults
+
+Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh), run the brew setup script.
+
+```bash
+./.brew
+```
+
+## Symlink dotfiles
+
+We want to make sure we commit/sync all changes with the git repo. So all the dotfiles we need to use should be symlinked to the correct places. 
+
+- [Symlink dotfiles](./SymlinkDotfiles.md)

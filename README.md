@@ -11,7 +11,7 @@ ow I set up a fresh computer. Less of a guide on how to use an automated process
 
 ## Scripts
 
-- [**./macos**](./macos) MacOS Setup
+- [**./.macos**](./macos) MacOS Setup
 
 ## TODO
 
