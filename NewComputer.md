@@ -69,6 +69,8 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/.macos), run the macos setup script.
 
+If are setting up a from-scratch computer, and want to reset the dock icons. uncomment `.macos:361`
+
 ```bash
 ./macos
 ```
