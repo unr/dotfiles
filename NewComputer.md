@@ -49,8 +49,6 @@ Fresh setup, just the basics.
 
 2. Install 1Password, sync my passwords
 
-3. Install Moom, get my basic window shortcuts setup
-
 
 ## Git Setup
 

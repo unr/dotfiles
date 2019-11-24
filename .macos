@@ -796,12 +796,11 @@ defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
 ###############################################################################
-# Spectacle.app                                                               #
-# TODO Replace this with Moom Config!!                                        #
+# Moom.app                                                                    #
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-# cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r settings/com.manytricks.Moom.plist ~/Library/Preferences/com.manytricks.Moom.plist 2> /dev/null
 
 ###############################################################################
 # Tweetbot.app                                                                #
