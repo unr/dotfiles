@@ -15,11 +15,11 @@ ow I set up a fresh computer. Less of a guide on how to use an automated process
 
 ## TODO
 
-- [ ] Can I create a config file to transfer Moom settings?
-- [ ] Mac OSX Defaults setup, preferably [in a script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) to run? (dock, key repeat, mouse settings, etc)
 - [ ] Brew install / requirements
 - [ ] Proper Zsh setup this time
 - [ ] Vs Code setup / configs 
 - [ ] guide on what/how to symlink dotfiles to places (git settings, global configs zsh, valet)
 - [ ] Oni Vim 2 ??
 - [ ] Proper neovim install/setup for using with `vim`
+- [x] Mac OSX Defaults setup, preferably [in a script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) to run? (dock, key repeat, mouse settings, etc)
+- [x] Can I create a config file to transfer Moom settings?
