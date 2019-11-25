@@ -53,6 +53,7 @@ Fresh setup, just the basics.
 
 2. Install 1Password, sync my passwords
 
+3. Copy over your ssh keys (need it to clone repo)
 
 ## Git Setup
 
@@ -67,6 +68,26 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
+## Clone the dotfiles repo
+
+We're just going to clone these directly into `~/dotfiles`, and symlink them as needed.
+
+```bash
+cd ~/
+git clone git@github.com/unr/dotfiles.git dotfiles
+```
+
+
+## Setup Brew Defaults
+
+Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh), run the brew setup script.
+
+```bash
+./.brew
+```
+
+This should install a bunch of command line things that are needed (latest git, nginx, php, etc).
+
 ## Setup MacOS Defaults
 
 Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/.macos), run the macos setup script.
@@ -77,13 +98,9 @@ If are setting up a from-scratch computer, and want to reset the dock icons. unc
 ./.macos
 ```
 
-## Setup Brew Defaults
+This should set any systemwide preferences needed on MacOS, as well as any application-specific configs that are available. This should set up:
 
-Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh), run the brew setup script.
-
-```bash
-./.brew
-```
+- Moom Preferences
 
 ## Symlink dotfiles
 
