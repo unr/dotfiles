@@ -102,6 +102,11 @@ This should set any systemwide preferences needed on MacOS, as well as any appli
 
 - Moom Preferences
 
+
+## Environment Setups
+
+- Install [NVM](https://github.com/nvm-sh/nvm) and latest node.
+
 ## Symlink dotfiles
 
 We want to make sure we commit/sync all changes with the git repo. So all the dotfiles we need to use should be symlinked to the correct places. 
