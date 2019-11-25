@@ -83,7 +83,7 @@ git clone git@github.com/unr/dotfiles.git dotfiles
 Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh), run the brew setup script.
 
 ```bash
-./.brew
+sh .brew
 ```
 
 This should install a bunch of command line things that are needed (latest git, nginx, php, etc).
