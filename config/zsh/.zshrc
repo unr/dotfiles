@@ -35,7 +35,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Default ZSH Theme
 # ZSH_THEME="robbyrussell"
 # Custom ZSH theme, using https://github.com/geometry-zsh/geometry
-# ZSH_THEME="geometry"
+ZSH_THEME="geometry"
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
