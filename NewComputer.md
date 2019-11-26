@@ -105,6 +105,12 @@ This should set any systemwide preferences needed on MacOS, as well as any appli
 
 ## Environment Setups
 
+- Install [OhMyZsh](https://ohmyz.sh/)
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 - Install [NVM](https://github.com/nvm-sh/nvm) and latest node.
 
 ```bash
@@ -112,13 +118,17 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 ```
 
-
-- Install [OhMyZsh](https://ohmyz.sh/)
+- Install [Rust/Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (needed to install zr)
 
 ```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl https://sh.rustup.rs -sSf | sh
 ```
 
+- Install [zr](https://github.com/jedahan/zr) for zshrc plugin
+
+```bash
+cargo install zr
+```
 
 ## Symlink dotfiles
 
