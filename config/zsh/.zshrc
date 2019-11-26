@@ -22,6 +22,7 @@ unset dirs_to_prepend
 export PATH
 
 # zplug should be installed with brew, to manage plugins
+source ~/.zplug/init.zsh
 zplug "geometry-zsh/geometry"
 
 # I prefer two-line-prompt
@@ -46,7 +47,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npm)
+plugins=(git node npm osx)
 
 source $ZSH/oh-my-zsh.sh
 
