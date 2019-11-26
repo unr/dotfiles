@@ -1,5 +1,25 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Nicer formatting a list of Directories to be prepend to $PATH
+declare -a dirs_to_prepend
+dirs_to_prepend=(
+  "/usr/bin"
+  "/usr/local/sbin"
+  "/usr/local"
+  "$HOME/dotfiles/bin"
+  "$HOME/bin"
+  "$(brew --prefix coreutils)/libexec/gnubin" # Add brew-installed GNU core utilities bin
+  "$(brew --prefix)/share/npm/bin" # Add npm-installed package bin
+  "$HOME/.composer/vendor/bin" # composer support
+  "$HOME/.cargo/env" # cargo/rust support for zr
+)
+for dir in ${(k)dirs_to_prepend[@]}
+do
+  if [ -d ${dir} ]; then
+    # If these directories exist, then prepend them to existing PATH
+    PATH="${dir}:$PATH"
+  fi
+done
+unset dirs_to_prepend
+export PATH
 
 # Generate new ~/.zr/init.zsh if it does not exist or ~/.zshrc is newer
 if [[ ! -f ~/.config/zr.zsh ]] || [[ ~/.zshrc -nt ~/.config/zr.zsh ]]; then
