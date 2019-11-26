@@ -129,3 +129,12 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 We want to make sure we commit/sync all changes with the git repo. So all the dotfiles we need to use should be symlinked to the correct places. 
 
 - [Symlink dotfiles](./SymlinkDotfiles.md)
+
+
+## Install ZSH plugins
+
+After we have symlinked our zshrc, we need to use zplug to install related plugins.
+
+```bash
+zplug install
+```
