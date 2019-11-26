@@ -21,7 +21,7 @@ done
 unset dirs_to_prepend
 export PATH
 
-# zplug should be installed with brew, to manage plugins
+# zplug should be installed before setting up zsh
 source ~/.zplug/init.zsh
 zplug "geometry-zsh/geometry"
 zplug load
