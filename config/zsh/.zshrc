@@ -24,6 +24,7 @@ export PATH
 # zplug should be installed with brew, to manage plugins
 source ~/.zplug/init.zsh
 zplug "geometry-zsh/geometry"
+zplug load
 
 # I prefer two-line-prompt
 GEOMETRY_PROMPT+=(geometry_newline)
