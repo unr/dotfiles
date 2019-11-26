@@ -106,6 +106,12 @@ This should set any systemwide preferences needed on MacOS, as well as any appli
 ## Environment Setups
 
 - Install [NVM](https://github.com/nvm-sh/nvm) and latest node.
+- Install OhMyZsh
+
+```bash
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 
 ## Symlink dotfiles
 
