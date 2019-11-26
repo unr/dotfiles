@@ -95,7 +95,7 @@ Stealing straight from [mathiasbynens/dotfiles](https://github.com/mathiasbynens
 If are setting up a from-scratch computer, and want to reset the dock icons. uncomment `.macos:361`
 
 ```bash
-./.macos
+sh .macos
 ```
 
 This should set any systemwide preferences needed on MacOS, as well as any application-specific configs that are available. This should set up:
