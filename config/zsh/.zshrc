@@ -21,13 +21,14 @@ done
 unset dirs_to_prepend
 export PATH
 
+# I prefer two-line-prompt in geometry
+GEOMETRY_PROMPT+=(geometry_newline)
+
 # zplug should be installed before setting up zsh
 source ~/.zplug/init.zsh
 zplug "geometry-zsh/geometry"
 zplug load
 
-# I prefer two-line-prompt
-export GEOMETRY_PROMPT+=(geometry_newline)
 
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
@@ -35,7 +36,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Default ZSH Theme
 # ZSH_THEME="robbyrussell"
 # Custom ZSH theme, using https://github.com/geometry-zsh/geometry
-ZSH_THEME="geometry"
+# ZSH_THEME="geometry"
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
