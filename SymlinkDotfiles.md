@@ -4,7 +4,7 @@ We want to make sure we commit/sync all changes with the git repo. So all the do
 
 ```bash
 # zsh configs
-ln -s ./config/zsh/.zshrc ~/.zshrc
+ln -s ~/dotfiles/config/zsh/.zshrc ~/.zshrc
 ```
 
 
