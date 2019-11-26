@@ -800,7 +800,13 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-cp -r settings/com.manytricks.Moom.plist ~/Library/Preferences/com.manytricks.Moom.plist 2> /dev/null
+cp -r config/Moom/com.manytricks.Moom.plist ~/Library/Preferences/com.manytricks.Moom.plist 2> /dev/null
+
+###############################################################################
+# Install Fonts                                                               #
+###############################################################################
+
+cp -r fonts ~/Library/Fonts 2> /dev/null
 
 ###############################################################################
 # Tweetbot.app                                                                #
