@@ -803,6 +803,13 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 cp -r config/Moom/com.manytricks.Moom.plist ~/Library/Preferences/com.manytricks.Moom.plist 2> /dev/null
 
 ###############################################################################
+# iTerm2.app                                                                  #
+###############################################################################
+
+# Set up my preferred iTerm config
+cp -r config/iTerm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist 2> /dev/null
+
+###############################################################################
 # Install Fonts                                                               #
 ###############################################################################
 
