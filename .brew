@@ -84,6 +84,7 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
+brew install awk
 brew install fzf
 brew install git
 brew install git-lfs
@@ -101,6 +102,10 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+# Used for my zsh setup
+brew install zplug
+brew install rg
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -21,19 +21,8 @@ done
 unset dirs_to_prepend
 export PATH
 
-# Generate new ~/.zr/init.zsh if it does not exist or ~/.zshrc is newer
-if [[ ! -f ~/.config/zr.zsh ]] || [[ ~/.zshrc -nt ~/.config/zr.zsh ]]; then
-  zr \
-    frmendes/geometry \
-    jedahan/geometry-hydrate \
-    junegunn/fzf/shell/key-bindings.zsh \
-    > ~/.config/zr.zsh
-fi
-# Add support for zr plugin management
-source ~/.config/zr.zsh
-
-# use zr to add the geometry theme
-zr load geometry-zsh/geometry
+# zplug should be installed with brew, to manage plugins
+zplug "geometry-zsh/geometry"
 
 # I prefer two-line-prompt
 GEOMETRY_PROMPT+=(geometry_newline)
@@ -42,7 +31,7 @@ GEOMETRY_PROMPT+=(geometry_newline)
 export ZSH=$HOME/.oh-my-zsh
 
 # Default ZSH Theme
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 # Custom ZSH theme, using https://github.com/geometry-zsh/geometry
 # ZSH_THEME="geometry"
 

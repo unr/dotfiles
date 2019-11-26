@@ -118,18 +118,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 ```
 
-- Install [Rust/Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (needed to install zr)
-
-```bash
-curl https://sh.rustup.rs -sSf | sh
-```
-
-- Install [zr](https://github.com/jedahan/zr) for zshrc plugin
-
-```bash
-cargo install zr
-```
-
 ## Symlink dotfiles
 
 We want to make sure we commit/sync all changes with the git repo. So all the dotfiles we need to use should be symlinked to the correct places. 
