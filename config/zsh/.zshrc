@@ -2,6 +2,7 @@
 declare -a dirs_to_prepend
 dirs_to_prepend=(
   "/usr/bin"
+  "/usr/local/bin"
   "/usr/local/sbin"
   "/usr/local"
   "$HOME/dotfiles/bin"
