@@ -1,0 +1,164 @@
+{
+  // editor settings
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "500",
+  "editor.lineHeight": 28,
+  "editor.letterSpacing": 0,
+  "editor.fontFamily": "Hack",
+  "editor.insertSpaces": false,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 4,
+  "editor.wordWrap": "off",
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 28,
+  "editor.minimap.enabled": false,
+  "editor.codeLens": false, // codelens is the click to expand within a file links... very weird
+  "editor.emptySelectionClipboard": false, // When I accidentally hit copy without selecting anything and it overrides my clipboard - ugh.
+  "editor.quickSuggestionsDelay": 5,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.formatOnPaste": true,
+  // I removed the hyphen "-" from this list for better multi-cursor navigation.
+  // @freekmurze suggested I remove "$" too for php variables - brilliant!
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  // workbench adjustments
+  "workbench.fontAliasing": "antialiased",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": true, // turn this to false, to hide the icons on right side
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.sideBar.location": "right",
+  "window.newWindowDimensions": "maximized",
+  "window.openFoldersInNewWindow": "off",
+  // lets not fullscreen, when we want to be zen
+  "zenMode.fullScreen": false,
+  // trying out smooth cursor? maybe I like in vim.
+  "editor.cursorSmoothCaretAnimation": true,
+  // dont show me files I opened, when looking at explorer
+  "explorer.openEditors.visible": 0,
+  // don't find these guys
+  "search.exclude": {
+    "**/_nuxt": true,
+    "**/.nuxt": true,
+    "**/node_modules": true,
+    "**/vendor": true,
+    "storage/framework/views": true
+  },
+  // Show me whitespace in diffs, just in case some slips through, shows up in the GitHub PR, and I look like a dummy.
+  "diffEditor.ignoreTrimWhitespace": false,
+  "telemetry.enableCrashReporter": false,
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 14,
+  // HTML specific settings
+  "html.format.indentInnerHtml": true,
+  "html.format.preserveNewLines": true,
+  "html.format.unformatted": "code",
+  "html.format.wrapLineLength": 0,
+  // for postcss in vue
+  "files.associations": {
+    "*.css": "postcss",
+    ".macos": "powershell"
+  },
+  // Trying to get Vetur working properly
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "vetur.format.defaultFormatter": {
+    // "html": "prettier",
+    "html": "prettyhtml",
+    "css": "prettier",
+    "postcss": "prettier",
+    "scss": "prettier",
+    "less": "prettier",
+    "js": "prettier",
+    "ts": "prettier",
+    "stylus": "stylus-supremacy"
+  },
+  "vetur.completion.useScaffoldSnippets": false,
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "useTabs": true,
+      "printWidth": 100, // No line exceeds 100 characters
+      "singleQuote": true // Prefer single quotes over double quotes
+    }
+  },
+  // Emmet is here by default, lets utilize it everywhere
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "attr_quotes": "single"
+    }
+  },
+  // Configuring how to treat PHP files, for backend
+  "[php]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.autoIndent": false
+  },
+  // VIM!
+  // VIM!
+  // VIM!
+  // VIM!
+  // vim mode settings
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    // piano mode exits
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // these.... don't let me vim repeat.
+    // {
+    //     "before": [">"],
+    //     "commands": ["editor.action.indentLines"]
+    // },
+    // {
+    //     "before": ["<"],
+    //     "commands": ["editor.action.outdentLines"]
+    // },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // old vim save hotkey
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    // clear search highlight
+    {
+      "before": ["<leader>", "<enter>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "workbench.statusBar.feedback.visible": false,
+  "editor.renderControlCharacters": false,
+  "breadcrumbs.enabled": true
+}
