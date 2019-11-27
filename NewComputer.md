@@ -55,6 +55,8 @@ Fresh setup, just the basics.
 
 3. Copy over your ssh keys (need it to clone repo)
 
+4. Manually install each vscode plugin, don't seem to have a good way to transfer.
+
 ## Git Setup
 
 To prevent people accidentally running this step after looking at my Repo, I'll just manually run it here. Be sure to configure your global git with this command, replacing your name.
@@ -100,7 +102,8 @@ sh .macos
 
 This should set any systemwide preferences needed on MacOS, as well as any application-specific configs that are available. This should set up:
 
-- Moom Preferences
+- Moom
+- iTerm 2 
 
 
 ## Environment Setups
