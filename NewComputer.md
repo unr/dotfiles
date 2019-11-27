@@ -43,7 +43,6 @@ Fresh setup, just the basics.
 - [Pastebot](https://tapbots.net/pastebot2/Pastebot.dmg) (License in email)
 - [Insomnia](https://insomnia.rest/download/)
 - [CloudApp](https://www.getcloudapp.com/download/mac) (personal)
-- [1Password 6](https://app-updates.agilebits.com/download/OPM4) I haven't upgraded, using old version still.
 
 
 
@@ -51,7 +50,7 @@ Fresh setup, just the basics.
 
 1. Login to Chrome, sync my passwords/accounts
 
-2. Install 1Password, sync my passwords
+2. Install 1Password, sync my passwords, and move over my license file. Legacy license cannot be downloaded again.
 
 3. Copy over your ssh keys (need it to clone repo)
 
@@ -108,7 +107,7 @@ This should set any systemwide preferences needed on MacOS, as well as any appli
 
 ## Environment Setups
 
-- Install [OhMyZsh](https://ohmyz.sh/)
+- Install [OhMyZsh](https://ohmyz.sh/). After this, you may need to run the *git setup* steps again.
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
