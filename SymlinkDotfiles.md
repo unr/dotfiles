@@ -8,6 +8,9 @@ ln -s ~/dotfiles/config/zsh/.zshrc ~/.zshrc
 
 # VS Code settings - extensions need to be installed manually
 ln -s ~/dotfiles/config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+
+# MYSQL Login Config
+ln -s ~/dotfiles/config/mysql/.my.conf ~/.my.conf
 ```
 
 
