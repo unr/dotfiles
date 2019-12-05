@@ -47,6 +47,7 @@ brew install grep
 brew install openssh
 brew install screen
 brew install php
+brew install mysql
 brew install httpd
 brew install nginx
 brew install gmp
@@ -112,6 +113,8 @@ brew install autojump
 # Remove outdated versions from the cellar.
 brew cleanup
 
-# start php + apache
+# start php + apache + mysql
+# this is for my own local dev projects at this time
 brew services start php
 brew services start httpd
+brew services start mysql
