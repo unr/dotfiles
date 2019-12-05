@@ -47,6 +47,7 @@ brew install grep
 brew install openssh
 brew install screen
 brew install php
+brew install httpd
 brew install nginx
 brew install gmp
 
@@ -106,6 +107,11 @@ brew install zopfli
 # Used for my zsh setup
 brew install zplug
 brew install rg
+brew install autojump
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# start php + apache
+brew services start php
+brew services start httpd

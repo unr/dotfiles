@@ -3,7 +3,6 @@
 Fresh setup, just the basics.
 
 
-
 ## Basic Installs
 
 *These are the immediate defaults, things that aren't automated.*

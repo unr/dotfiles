@@ -9,6 +9,7 @@ ow I set up a fresh computer. Less of a guide on how to use an automated process
 
 1. [New Computer Setup](./NewComputer.md)
 2. [Symlink Dotfiles](./SymlinkDotfiles.md)
+2. [Setting Up Rivalry](./SettingUpRivalry.md)
 
 ## Scripts
 
@@ -17,8 +18,6 @@ ow I set up a fresh computer. Less of a guide on how to use an automated process
 
 ## TODO
 
-- [ ] Determine if it's possible to move over Bartender3 configs? might need to just do manually
-- [ ] guide on what/how to symlink dotfiles to places (git settings, global configs zsh, valet)
 - [ ] Oni Vim 2 ??
 - [ ] Proper neovim install/setup for using with `vim`
 - [x] Vs Code setup / configs 
@@ -28,3 +27,5 @@ ow I set up a fresh computer. Less of a guide on how to use an automated process
 - [x] Brew install / requirements
 - [x] Mac OSX Defaults setup, preferably [in a script](https://github.com/mathiasbynens/dotfiles/blob/master/.macos) to run? (dock, key repeat, mouse settings, etc)
 - [x] Can I create a config file to transfer Moom settings?
+- [x] Determine if it's possible to move over Bartender3 configs? might need to just do manually
+- [x] guide on what/how to symlink dotfiles to places (git settings, global configs zsh, valet)
