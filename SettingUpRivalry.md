@@ -20,6 +20,7 @@ php composer-setup.php --install-dir=bin --filename=composer
 9. `valet secure` to make it ssl
 10. update the `~/.config/valet/Nginx/rivalry.test` file to match our local nginx configs.
 11. Valet restart, should be able to hit `https://www.rivalry.test/app/user`
+12. Run the frontend apps, should be able to hit `https://www.rivalry.test`
 
 
 ## SequelPro / MYSQL 8 Trouble
