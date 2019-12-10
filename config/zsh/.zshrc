@@ -54,5 +54,8 @@ alias vscode='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/
 
 # my custom version of the 'git' plugin
 alias g='git'
+alias gs='git status'
 alias gco='git checkout'
 alias gfa='git fetch --all'
+alias gg='git grep'
+alias gfg='git ls-files | grep'
