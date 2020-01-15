@@ -160,5 +160,7 @@
   },
   "workbench.statusBar.feedback.visible": false,
   "editor.renderControlCharacters": false,
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true
 }

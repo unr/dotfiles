@@ -11,6 +11,9 @@ ln -s ~/dotfiles/config/vscode/settings.json ~/Library/Application\ Support/Code
 
 # MYSQL Login Config
 ln -s ~/dotfiles/config/mysql/.my.conf ~/.my.conf
+
+# Add in global gitignore
+ln -s ~/dotfiles/.gitignore ~/.gitignore
 ```
 
 
