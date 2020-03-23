@@ -30,7 +30,7 @@ brew install wget --with-iri
 brew install gnupg
 
 # Tap any additional requirements
-brew tap lokalise/brew
+brew tap lokalise/cli-2
 
 # Setting Up Development
 brew install vim --with-override-system-vi
@@ -44,7 +44,7 @@ brew install redis
 brew install httpd
 brew install nginx
 brew install gmp
-brew install lokalise
+brew install lokalise2
 
 # Install font tools.
 brew tap bramstein/webfonttools

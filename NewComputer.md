@@ -31,6 +31,7 @@ Fresh setup, just the basics.
 - [VS Code](https://code.visualstudio.com/docs/setup/mac)
 - [Slack](https://slack.com/intl/en-ca/downloads/mac)
 - [Sketch](https://www.sketch.com/get/) (Work License)
+- [Notion](https://notion.so) (Work License)
 - [Spotify](https://www.spotify.com/ca-en/download/mac/)
 - [Sequel Pro](https://sequelpro.com/download)
 - [Caret](https://caret.io/)

@@ -34,6 +34,29 @@
   "workbench.sideBar.location": "right",
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "off",
+  // Peacock is cool, lets organize our multiple projects
+  "peacock.favoriteColors": [
+    {
+      "name": "Rebecca Purple",
+      "value": "#663399"
+    },
+    {
+      "name": "UNR Orange",
+      "value": "#C06D09"
+    },
+    {
+      "name": "Rivalry Teal",
+      "value": "#008080"
+    },
+    {
+      "name": "Rivalry Navy",
+      "value": "#06283b"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    }
+  ],
   // lets not fullscreen, when we want to be zen
   "zenMode.fullScreen": false,
   // trying out smooth cursor? maybe I like in vim.
@@ -64,7 +87,11 @@
     ".macos": "powershell"
   },
   // Trying to get Vetur working properly
-  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
   "vetur.format.defaultFormatter": {
     // "html": "prettier",
     "html": "prettyhtml",
@@ -119,12 +146,22 @@
   "vim.insertModeKeyBindings": [
     // piano mode exits
     {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     },
     {
-      "before": ["k", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -141,17 +178,32 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     // old vim save hotkey
     {
-      "before": ["<leader>", "w"],
-      "commands": ["workbench.action.files.save"]
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
     },
     // clear search highlight
     {
-      "before": ["<leader>", "<enter>"],
-      "commands": [":nohl"]
+      "before": [
+        "<leader>",
+        "<enter>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
     },
     {
-      "before": ["<leader>", "f"],
-      "commands": ["workbench.action.quickOpen"]
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
     }
   ],
   "vim.handleKeys": {
@@ -162,5 +214,8 @@
   "editor.renderControlCharacters": false,
   "breadcrumbs.enabled": true,
   "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true
+  "prettier.jsxSingleQuote": true,
+  "editor.lineNumbers": "on",
+  "peacock.affectTabActiveBorder": true,
+  "peacock.affectActivityBar": false
 }
