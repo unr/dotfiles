@@ -43,6 +43,7 @@ Fresh setup, just the basics.
 - [Pastebot](https://tapbots.net/pastebot2/Pastebot.dmg) (License in email)
 - [Insomnia](https://insomnia.rest/download/)
 - [CloudApp](https://www.getcloudapp.com/download/mac) (personal)
+- [Folx](https://mac.eltima.com/download-manager.html) (License in email)
 
 
 

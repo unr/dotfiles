@@ -49,8 +49,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # aliases!
-alias ffsnpm='rm -rf node_modules && npm cache clean && npm i'
+alias ffsnpm='rm -rf node_modules  && npm i'
 alias vscode='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+alias art='php artisan'
 
 # my custom version of the 'git' plugin
 alias g='git'
@@ -59,3 +60,16 @@ alias gco='git checkout'
 alias gfa='git fetch --all'
 alias gg='git grep'
 alias gfg='git ls-files | grep'
+
+# spotify integration
+alias s='spotify'
+
+
+# custom dev work, these are dumb/temporary
+alias appdev='NODE_ENV=local NOW_CONFIG=../now.local.json nuxt dev' # rivalry-app dev
+alias rushlanedev='NODE_ENV=local NOW_CONFIG=../now.local.json RUSHLANE_LOCAL=true nuxt dev' # rivalry-app dev
+alias appbuild='NODE_ENV=local NOW_CONFIG=../now.local.json nuxt build'
+alias appstart='NODE_ENV=local NOW_CONFIG=../now.local.json nuxt start'
+alias crmdev='NODE_ENV=local NOW_CONFIG=./now.local.json nuxt dev' # rivalry-crm dev
+alias crmbuild='NODE_ENV=local NOW_CONFIG=./now.local.json nuxt build'
+alias crmstart='NODE_ENV=local NOW_CONFIG=./now.local.json nuxt start'

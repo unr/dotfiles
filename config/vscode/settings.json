@@ -55,6 +55,14 @@
     {
       "name": "Something Different",
       "value": "#832561"
+    },
+    {
+      "name": "Rushlane",
+      "value": "#FD5468"
+    },
+    {
+      "name": "Pinnacle",
+      "value": "#6567E8"
     }
   ],
   // lets not fullscreen, when we want to be zen
@@ -81,17 +89,19 @@
   "html.format.preserveNewLines": true,
   "html.format.unformatted": "code",
   "html.format.wrapLineLength": 0,
+  // setting up i18n for vue
+  "i18n-ally.localesPaths": ["locales", "app/locales"],
+  "i18n-ally.pathMatcher": "{locale}.js",
+  "i18n-ally.enabledParsers": "js",
+  "i18n-ally.enabledFrameworks": "vue",
+  "i18n-ally.readonly": true,
   // for postcss in vue
   "files.associations": {
     "*.css": "postcss",
     ".macos": "powershell"
   },
   // Trying to get Vetur working properly
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
   "vetur.format.defaultFormatter": {
     // "html": "prettier",
     "html": "prettyhtml",
@@ -146,22 +156,12 @@
   "vim.insertModeKeyBindings": [
     // piano mode exits
     {
-      "before": [
-        "j",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
     },
     {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -178,32 +178,17 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     // old vim save hotkey
     {
-      "before": [
-        "<leader>",
-        "w"
-      ],
-      "commands": [
-        "workbench.action.files.save"
-      ]
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
     },
     // clear search highlight
     {
-      "before": [
-        "<leader>",
-        "<enter>"
-      ],
-      "commands": [
-        ":nohl"
-      ]
+      "before": ["<leader>", "<enter>"],
+      "commands": [":nohl"]
     },
     {
-      "before": [
-        "<leader>",
-        "f"
-      ],
-      "commands": [
-        "workbench.action.quickOpen"
-      ]
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
     }
   ],
   "vim.handleKeys": {
@@ -217,5 +202,13 @@
   "prettier.jsxSingleQuote": true,
   "editor.lineNumbers": "on",
   "peacock.affectTabActiveBorder": true,
-  "peacock.affectActivityBar": false
+  "peacock.affectActivityBar": false,
+  "i18n-ally.displayLanguage": "en",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "kite.showWelcomeNotificationOnStartup": false
 }

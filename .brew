@@ -38,7 +38,7 @@ brew install neovim
 brew install grep
 brew install openssh
 brew install screen
-brew install php@7.2
+brew install php@7.3
 brew install mysql@5.7
 brew install redis
 brew install httpd
@@ -83,7 +83,7 @@ brew cleanup
 
 # start php + apache + mysql@5.7
 # this is for my own local dev projects at this time
-brew services start php@7.2
+brew services start php@7.3
 brew services start httpd
 brew services start mysql@5.7
 brew services start redis
