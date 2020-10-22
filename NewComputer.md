@@ -2,10 +2,9 @@
 
 Fresh setup, just the basics.
 
-
 ## Basic Installs
 
-*These are the immediate defaults, things that aren't automated.*
+_These are the immediate defaults, things that aren't automated._
 
 ### Browsers
 
@@ -45,8 +44,6 @@ Fresh setup, just the basics.
 - [CloudApp](https://www.getcloudapp.com/download/mac) (personal)
 - [Folx](https://mac.eltima.com/download-manager.html) (License in email)
 
-
-
 ## Setup TODOs
 
 1. Login to Chrome, sync my passwords/accounts
@@ -76,9 +73,8 @@ We're just going to clone these directly into `~/dotfiles`, and symlink them as 
 
 ```bash
 cd ~/
-git clone git@github.com/unr/dotfiles.git dotfiles
+git clone git@github.com:unr/dotfiles.git dotfiles
 ```
-
 
 ## Setup Brew Defaults
 
@@ -103,12 +99,11 @@ sh .macos
 This should set any systemwide preferences needed on MacOS, as well as any application-specific configs that are available. This should set up:
 
 - Moom
-- iTerm 2 
-
+- iTerm 2
 
 ## Environment Setups
 
-- Install [OhMyZsh](https://ohmyz.sh/). After this, you may need to run the *git setup* steps again.
+- Install [OhMyZsh](https://ohmyz.sh/). After this, you may need to run the _git setup_ steps again.
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -129,10 +124,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 ## Symlink dotfiles
 
-We want to make sure we commit/sync all changes with the git repo. So all the dotfiles we need to use should be symlinked to the correct places. 
+We want to make sure we commit/sync all changes with the git repo. So all the dotfiles we need to use should be symlinked to the correct places.
 
 - [Symlink dotfiles](./SymlinkDotfiles.md)
-
 
 ## Install ZSH plugins
 
