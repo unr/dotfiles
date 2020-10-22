@@ -4,7 +4,15 @@ My process for setting up my working environment for local development on [Rival
 
 1. Install Node via nvm (part of [NewComputer](./NewComputer.md))
 2. Install PHP/Apache/Redis Via Brew (part of [.brew](./.brew))
-3. Install [composer](https://getcomposer.org/doc/00-intro.md)
+3. Update `pecl` installs
+
+```bash
+pecl install igbinary
+pecl install redis 
+```
+> say yes to igbinary and no to the other options
+
+4. Install [composer](https://getcomposer.org/doc/00-intro.md)
 
 **For this setup, update the composer setup command. Run this in ~/**
 
