@@ -2,16 +2,149 @@
   // editor settings
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "all",
-  "editor.fontSize": 14,
+
+  // my old fav
+  // "editor.fontFamily": "Hack",
+  // "editor.fontWeight": "500",
+
+  // Fira, omg that @ looks HORRID
+  // "editor.fontFamily": "Fira Code",
+  // "editor.fontWeight": "400",
+
+  // Cascadia, better than Fira
+  // "editor.fontFamily": "Cascadia Code",
+  // "editor.fontWeight": "400",
+
+  // Jetbrains, closest to Hack, IMO
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontWeight": "500",
+
+  // Victor, too light!
+  // "editor.fontFamily": "Victor Mono",
+  // "editor.fontWeight": "300",
+
+
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.suggestFontSize": 16,
+  // Removing stupid italics from themes
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.method",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
   "editor.lineHeight": 28,
   "editor.letterSpacing": 0,
-  "editor.fontFamily": "Hack",
   "editor.insertSpaces": false,
   "editor.tabCompletion": "on",
   "editor.tabSize": 4,
   "editor.wordWrap": "off",
-  "editor.suggestFontSize": 16,
   "editor.suggestLineHeight": 28,
   "editor.minimap.enabled": false,
   "editor.codeLens": false, // codelens is the click to expand within a file links... very weird
@@ -30,7 +163,7 @@
   "workbench.fontAliasing": "antialiased",
   "workbench.startupEditor": "none",
   "workbench.activityBar.visible": true, // turn this to false, to hide the icons on right side
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.sideBar.location": "right",
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "off",
@@ -82,7 +215,6 @@
   // Show me whitespace in diffs, just in case some slips through, shows up in the GitHub PR, and I look like a dummy.
   "diffEditor.ignoreTrimWhitespace": false,
   "telemetry.enableCrashReporter": false,
-  "window.zoomLevel": 0,
   "terminal.integrated.fontSize": 14,
   // HTML specific settings
   "html.format.indentInnerHtml": true,
@@ -210,5 +342,8 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "kite.showWelcomeNotificationOnStartup": false
+  "kite.showWelcomeNotificationOnStartup": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
